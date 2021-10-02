@@ -1,0 +1,36 @@
+.contact{
+	padding-top: 20px;
+
+}
+
+.contact__h2{
+	@include subtitulo
+}
+
+input, textarea{
+	width:95%;
+	padding: 10px;
+
+}
+.contact__p{
+	@include parrafo;
+	text-align: justify;
+	
+}
+.contact__h4{
+	@include parrafo;	
+}
+
+.contact-button{
+margin-top: 20px;
+text-align: right;
+margin-right: 15px;
+}
+
+@media(max-width: 992px){
+	input, textarea{
+		width:89%;
+	display: block;
+	margin: 0 auto;
+	}	
+}

@@ -1,0 +1,14 @@
+ @mixin subtitulo{
+	font-weight: $black;
+	font-size: 28px;
+	color:$blackgrey;
+	text-transform:uppercase;
+ }
+
+ @mixin parrafo {
+	color: $blackgrey;
+	font-size: 14px;
+ }
+ @mixin name {
+	 
+ }

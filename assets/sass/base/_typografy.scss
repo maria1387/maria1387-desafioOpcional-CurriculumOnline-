@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+// tipografia
+
+$lato:  'Lato', sans-serif;
+//tamaño
+$light:300;
+$regular:400;
+$bold:700;
+$black:900;
+
+
+body{
+
+	font-family:$lato ;
+}
+
