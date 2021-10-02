@@ -9,6 +9,7 @@
 	font-size: 40px;
 	margin-bottom: 0;
 	color:$blackgrey;
+	margin-bottom: 5px;
 }
 }
 .personal-data__h4{
@@ -38,3 +39,13 @@ span{
 .personal-data__icon{
 	color: $marine;
 	}
+
+	@media(max-width: 576px){
+		.personal-data__h1{
+			font-size: 30px;
+			
+		}
+		.personal-data__h4{
+			font-size: 14px;
+	}
+}
